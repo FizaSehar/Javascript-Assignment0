@@ -1,0 +1,1135 @@
+ 
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset='utf-8'>
+        
+        <title>Assignment # 5</title>
+    
+        <script src='app.js'> </script>
+        
+        <script> alert('Hello World!')
+        </script>
+        
+    </head>
+    
+    
+    <body>
+     
+    <!-- chap  # 14 to 16  task # 7 -->
+    <br/> <br/>
+    <select id="select1"> 
+                <option value="Apple">Apple</option> 
+                <option value="Samsung">Samsung</option> 
+                <option value="Motorola">Motorola</option> 
+               <option value="Nokia">Nokia</option> 
+               <option value="Sony">Sony</option> 
+               <option value="Haier">Haier</option> 
+               
+            </select> 
+    
+
+
+
+
+            <p id="demo"><div>
+        
+            </p>
+        
+            
+            
+            <a href="#" class="confirmation"><h2>Link</h2></a>
+        
+               
+            <!-- chap # 49 to 52 task # 2 -->
+        <h2>paragraph :</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur 
+            adipiscing elit. Phasellus imperdiet, nulla et
+             dictum interdum, nisi lorem egestas vitae scel
+             <span id="dots">...</span><span id="more">erisque enim
+                 ligula venenatis dolor. Maecenas nisl est, ultrices
+                  nec congue eget, auctor vitae massa. Fusce luctus 
+                  vestibulum augue ut aliquet. Nunc sagittis dictum nisi, 
+                  sed ullamcorper ipsum dignissim ac. In at libero sed nunc 
+                  venenatis imperdiet sed ornare turpis. Donec vitae dui eget 
+                  tellus gravida venenatis. Integer fringilla congue eros non 
+                  fermentum. Sed dapibus pulvinar nibh tempor porta.</span></p>
+        
+        <button onclick="myFunction()" id="myBtn">Read more</button>
+        
+        
+        
+        
+             
+        
+         <!-- chap # 58 to 67 task # 2 -->
+        
+         <div id="div1">
+            <p id="p1"><h1> DOM </h1>
+                <div id=”form-content” class=”content”>
+                <label for=”first-name”>First Name</label>
+                <input type=”text” id=”first-name” />
+                <label for=”last-name”>Last Name</label>
+                <input type=”text” id=”last-name” />
+                <label for=”email”>Email</label>
+                <input type=”text” id=”email” />
+                </div></p>
+            <p id="p2"><div id=”main-content” class=”content”>
+                <p class=”render”> First Name : Alex</p>
+                <p class=”render” id=”lastName”>Last Name: Bank</p>
+                <p class=”render”> Email : alexbank@example.com</p>
+                <p class=”render”> Country : Pakistan </p>
+                <p class=”render”> contact : +92 300 1234567</p>
+                </div></div></p>
+          </div>
+          
+          
+        
+        
+         
+         <!-- chap # 52 to 57 task # 1 -->
+        
+          <button  onclick="myFunction1()"  style="width: 20%;padding: 25px ; background-color: coral; color: white; font-size: 25px;" >Try it</button>
+            
+          
+        
+          <div id="myDIV" class="mystyle">
+            This is a DIV element.
+          </div>
+            
+               <!-- chap # 43 to 48 task # 4 -->
+              
+        
+        <br/><br/>
+         <div class="button">
+            <button type="button" style="font-size: large;color: whitesmoke; background-color:blue;"
+             class="btn" onclick="incrementer()">Number Increment Button</button>
+          </div>
+          
+          <br/><br/>
+          <div class="button">
+            <button type="button" style="font-size: large;color: whitesmoke; background-color:blue;  font-weight: 200;"
+             class="btn" onclick="decrementer()">Number Decrement Button</button>
+          </div>
+          
+          
+          <!-- chap # 49 to 52 task # 1 -->
+        
+        <br/><br/>
+        <h1>Form</h1>
+          <input type="text" id="textone" placeholder="Enter Your Name :"/>
+          <br/>
+          <input type="text" id="textTWO" placeholder="Enter Your Age :"/>
+          <button  onclick="testVariable()" style="font-size: large;color: whitesmoke; background-color:blue; font-weight: 200; ">Submit</button>
+           <br />
+          <span id="spanResult">
+        
+          </span>
+          
+          
+          <!-- chap # 43 to 48 task # 3 -->
+        
+          <br/><br/>
+            <table>
+        
+               <a> <tr onmouseover="this.style.background='red'" onmouseout="this.style.background='green'"></a>
+                
+                <td ><h2> Example of mouseover and mouseout : </h2> </td></tr>
+               
+                </table>
+               <a> <img src="1.png" height="300" width="300" onmouseover="this.style.background='red'" onmouseout="this.style.background='green'"/></a>
+        
+        
+        
+        
+        
+        
+        
+        
+               
+               <div id="adiv"><b>     </b></div>
+        
+                
+               <!-- chap # 43 to 48 task # 2 -->
+            <div id="content">
+              <h1>Car Lookup</h1>
+                <a href="#"><img src="1.png" width="330px" height="300px"  value="See Alert" onclick="alert('Thanks for purchasing a car from us!');"/></a>
+                <a href="#"><img src="5.png" width="320px" height="300px"  value="See Alert" onclick="alert('Thanks for purchasing a car from us!');"/></a>
+                <a href="#"><img src="3.png" width="330px" height="300px"  value="See Alert" onclick="alert('Thanks for purchasing a car from us!');"/></a>
+                <a href="#"><img src="4.png" width="320px" height="300px"  value="See Alert" onclick="alert('Thanks for purchasing a car from us!');"/></a>
+        
+            </div>
+        
+        
+    
+    
+    </body>
+    <script>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     // chap  # 2 task # 1 
+     var username;
+    
+    //chap  # 2 task # 2
+    var myName; 
+    myName= 'Jhone Doe';
+    document.write("<br><br> " +myName);
+    
+    //chap  # 2 task # 3
+    
+    var message; 
+    message = 'Hello World!';
+    alert(message);
+    
+    //chap  # 2 task # 4
+    
+    var name; 
+    name = 'Jhone Doe';
+    alert(name);
+    
+    var age; 
+    age = '15 years old';
+    alert(age);
+    
+    var Degree; 
+    Degree= 'Certified Mobile Application Development';
+    alert(Degree);
+    
+    //chap  # 2 task # 6
+    
+    
+    var email; 
+    email='example @example.com';
+    alert('My email address is ' +email);
+    
+    //chap  # 2 task # 7
+    
+    var book;
+    book=('A smarter \n way to learn JavaScript')
+    alert('I am trying to learn from the book ' + book)
+    
+    
+    //chap  # 2 task # 8
+    
+    var text; 
+    text= 'Yah! I can write HTML content through javascript';
+    document.write("<br><br>",text);
+    
+    
+    //chap  # 2 task # 9
+    
+    
+    var design; 
+    design='▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬';
+    alert(design);
+    
+    
+    
+    
+    
+    //chap  # 3 task # 1
+    
+    
+    var age; 
+    age='I am 15 years old';
+    alert(age);
+    
+    //chap  # 3 task # 2
+    
+    
+    var visit; 
+    visit='You have visited this site 14 times.';
+    alert(visit);
+    
+    
+    //chap  # 3 task # 3
+    
+    var birthyear; 
+    birthyear= '1990';
+    document.write("<br><br>"+"My birth year is " +birthyear+"<br>"+"Data type of my declared variable is number");
+    
+    
+    
+    
+    //chap  # 3 task # 4
+    
+    var  Visitorname; 
+    Visitorname = 'Jhone Doe';
+    document.write("<br><br>" +"<b>"+Visitorname)
+    
+    var Producttitle; 
+    Producttitle = '5 T-shirt(s)';
+    document.write(" ordered "+"<b>"+Producttitle);
+    
+    var Quantity ; 
+    Quantity = 'on XYZ Clothing store';
+    document.write(Quantity );
+    
+    
+    
+    //chap  # 4 task # 1
+    
+    var variable1 = "Hello World!",
+    variable2 = "Testing...",
+    variable3 = 42;
+    
+    
+    alert (variable1)
+    alert (variable2)
+    alert (variable3)
+    
+    //chap  # 4 task # 2
+    
+    var dis;
+    dis=' <br><br>A heading stating “Rules for naming JS variables " <br> Variable names can only contain , numbers, $ and _ .For example $my_1stVariable <br> Variables must begin with a letter , $ or _. For example $name, _name or name <br> Variable names are case  sensitive <br> Variable names should not be JS Keywords';
+    document.write(dis);
+    
+    
+    //chap  # 5 task # 1
+    
+    var x = 3;
+    
+    var y= 5;
+    
+    var sum =x+y;
+    
+    document.write("<br><br>"+" Sum of 3 and 5 is  " +sum); 
+    
+    
+    
+    //chap  # 5 task # 2
+    
+    
+    var x = 3;
+    
+    var y= 5;
+    
+    var sub =x-y;
+    
+    document.write("<br><br>"+" Subtraction of 3 and 5 is  " +sub); 
+    
+    
+    var x = 3;
+    
+    var y= 5;
+    
+    var mul =x*y;
+    
+    document.write("<br><br>"+" Multiplication of 3 and 5 is  " +mul); 
+    
+    
+    var x = 3;
+    
+    var y= 5;
+    
+    var div =x/y;
+    
+    document.write("<br><br>"+" division of 3 and 5 is  " +div); 
+    
+    //chap  # 5 task # 3
+    
+    
+    var movie;
+    movie =600;
+    document.write("<br><br>"+"Total cost to buy 5 tickets to a movie is "+movie*5)
+    
+    //chap  # 5 task # 4
+    
+    var n = 4;  
+    var range = 10;
+    for (var i = 1; i <= range; ++i) {
+    document.write("<br><br> "+  n  + "*"  +i  +  "="  +n * i )
+    } 
+    //chap  # 5 task # 5
+    
+    var cTemp= 25 ;
+    var cToFahr = cTemp * 9 / 5 + 32;
+    
+    document.write("<br><br>" + cTemp +"C is " +  cToFahr +"F" );
+    
+    
+    
+    var fTemp =70 ;
+    var fToCel = (fTemp - 32) * 5 / 9;
+    
+    
+    document.write("<br><br>" +fTemp +"F is " +  fToCel +"C" );
+    
+    //chap  # 5 task # 6
+    
+    var CurrentYear = 2016;
+    var BirthYear = 1992;
+    var Age1 = CurrentYear - BirthYear;
+    
+    document.write ("<br><br>   Your age is " + Age1  );
+    
+    //chap  # 6 to 9  task # 1
+    
+     var a=10;
+     document.write("<br><br> Result : ");
+    
+    document.write("<br> The Value of a is : " + a+"<br>");
+    
+    document.write("<br> The Value of ++a is : " + ( ++a));
+    
+    document.write("<br>  Now  the Value of a is : " + a);
+    document.write("<br><br>");
+    document.write("<br>  The Value of a++ is : " + a);
+    
+    document.write("<br>  Now  the Value of a is : " + (++a));
+    document.write("<br><br>");
+    
+    
+    document.write("<br> The Value of --a is : " + ( --a));
+    
+    document.write("<br>  Now  the Value of a is : " + a);
+    document.write("<br><br>");
+    
+    
+    document.write("<br> The Value of a-- is : " + a);
+    
+    document.write("<br>  Now  the Value of a is : " +( --a));
+    document.write("<br><br>");
+    
+    
+     
+    
+    
+    //chap  # 9 to 11  task # 1
+    
+    
+    
+    var city=  prompt("Enter Your City");
+    
+    
+    
+    if(city==="karachi")
+    {
+        alert("Welcome to city of lights")  
+      
+    
+    }else{
+        alert("Invalid City")
+    }
+    
+    //chap  # 9 to 11  task # 2
+    
+    var gender=  prompt("Enter Your Gender");
+    
+    
+    
+    if(gender="male")
+    {
+        alert("Good Morning Sir")  
+    }
+       
+    
+    
+    //chap  # 9 to 11  task # 3
+    
+    var a = 4;
+    if (++a === 5){
+    alert("given condition for variable a is true");
+    }
+    
+    var b = 82;
+    if (b++ === 83){
+    alert("given condition for variable b is true");
+    }
+    
+    var c = 12;
+    if (c++ === 13){
+    alert("condition 1 is true");
+    }
+    if (c === 13){
+    alert("condition 2 is true");
+    }
+    if (++c < 14){
+    alert("condition 3 is true");
+    }
+    if(c === 14){
+    alert("condition 4 is true");
+    }
+    
+    var materialCost = 20000;
+    var laborCost = 2000;
+    var totalCost = materialCost + laborCost;
+    if (totalCost === laborCost + materialCost){
+    alert("The cost equals");
+    }
+    
+    
+    if (true){
+    alert("True");
+    }
+    if (false){
+    alert("False");
+    }
+    
+    if("car" < "cat"){
+    alert("car is smaller than cat");
+    }
+    
+    
+    
+    
+    
+    //chap  # 9 to 11  task # 4
+    
+    
+    
+    
+    
+    
+    
+    var op = prompt("Enter Operator :");
+    
+    var val1 = +prompt("Enter First Value :");
+    
+    var val2 = +prompt("Enter Second Value :");
+    
+    switch (op) {
+      case '+':
+    
+        alert( val1+val2 );
+        break;
+    
+      case '-':
+        alert( val1-val2);
+        break;
+    
+      case '*':
+        alert(val1*val2 );
+        break;
+    
+        case '/':
+        alert(val1/val2);
+        break;
+    
+      default:
+        alert( "Invalid !" );
+    }
+    
+    
+    //chap  # 12 to 13  task # 1
+    
+    
+    
+    
+    var ch = +prompt("Enter any character:");
+    
+    
+        if (ch>=65 && ch<=90)
+        alert("Character is a capital letter");
+        else if (ch>=97 && ch<=122)
+        alert("Character is a small letter");
+        else if (ch>=48 && ch<=57)
+        alert("Character is a digit");
+        else if ((ch>0 && ch<=47)||(ch>=58 && ch<=64)||
+                   (ch>=91 && ch<=96)||(ch>=123 && ch<=127))
+                   alert("Character is a special symbol");
+    
+                   
+                   
+    //chap  # 12 to 13  task # 2
+    
+    var a=10;
+    var b=30;
+    
+    if (a > 0 && b > 0 && a > b) {
+        alert("The larger number is " + a );
+      } else if (a > 0 && b > 0 && a < b) {
+        alert("The larger number is " + b);
+      } else if (a === b && a > 0 && b > 0) {
+        alert("Both numbers are equal!")
+      } else {
+          alert("Please add an integer!");
+    
+      }
+    
+    
+    //chap  # 12 to 13  task # 3
+    
+    
+     
+    var num = +prompt("Enter a number:");
+    
+     if (num > 0)
+         alert(num+" is a positive number ");
+     else if (num < 0)
+     alert(num+" is a negative number ");
+     else
+     alert(num+" is a neither positive nor negative number ");
+    
+    
+     
+    //chap  # 14 to 16  task # 1
+    
+    var cars = ["SSC", "HSC", "BCS","BS", "BCOM", "MS"," M. Phil", "PhD"];
+    var car1 = "SSC";
+    var car2 = "HSC";
+    var car3 = "BCS";
+    var car4 = "BS";
+    var car5 = "BCOM";
+    var car6 = "MS";
+    var car7 = "M.Phil";
+    var car8 = "PhD";
+    
+    document.write("Qualification :" )
+    document.write("<br>" + cars);
+    
+    
+    //chap  # 14 to 16  task # 2
+    
+    
+    var arr = new Array (1, 2, 3, 4, 5);
+    document.write("<br><br>"  +arr);
+    
+    
+    //chap  # 14 to 16  task # 3
+    
+    var myArr = [];
+             var value = 2;
+             for(var i = 0; i < value; i++) {
+                myArr.push(false);
+             }
+             document.write("<br><br>" +myArr);
+    
+    
+    //chap  # 14 to 16  task # 4
+    
+             myColor = ["Red", "Green", "White", "Black"];
+    
+             document.write("<br><br>" +myColor);
+             
+    
+    //chap  # 14 to 16  task # 5
+    
+    
+             var cities=["Karachi","Lahore","Islamabad","Peshawar","Quetta"];
+      
+             document.write("<br><br>Cities List  :<br>   "+cities)
+    
+             var cities=["Islamabad","Quetta"];
+      
+      document.write("<br><br>Selected Cities List   :<br>   "+cities)
+    
+    //chap  # 14 to 16  task # 6
+    
+    
+    
+    var arr = ["This" , "is" , "my" , "cat"];
+    
+      
+    document.write("<br><br>")
+    document.write("Array :")
+    document.write(arr.join(  ));
+    
+    
+       
+    document.write("<br><br>")
+    document.write("String :")
+    document.write(arr.join('  '));
+    
+    
+    
+    //chap  # 17 to 20  task # 1
+    document.write("<br><br>")
+    var arr1 = [0, 1, 2, 3]; 
+    var arr2 = [1, 0, 1, 2]; 
+    var arr3 = [2, 1, 0, 1]; 
+     
+    var salary = [arr1, arr2, arr3];  
+    for(var i = 0; i < salary.length; i++) { 
+        document.write(salary[i] + "<br>"); 
+    } 
+        
+     //chap  # 17 to 20  task # 2
+    
+    for (var i= 1; i <= 10; i++) {
+     document.write("<br> "  +i);
+    }
+    
+    
+    //chap  # 17 to 20  task # 3
+    
+    
+    var n = 2;  
+        for (var i = 1; i <= 10; ++i)  
+            document.write("<br><br>" +n + " * " + i + " = "  
+                 + n * i );
+    
+    
+    //chap  # 17 to 20  task # 4
+    
+    fruits = ["apple", "banana", "mango", "orange","strawberry"];
+    document.write("<br><br> " +fruits);
+    
+    
+    
+    //chap  # 17 to 20  task # 5
+    
+    document.write("<br> Counting");
+    for (var i= 1; i <= 10; i++) {
+        document.write("<br>"  +i);
+       }
+    
+       document.write("<br> Reverse Counting");
+       for (var i= 10; i >= 1; i--) {
+        document.write("<br>"  +i);
+       }
+    
+       document.write("<br> Even Numbers");
+      
+       for (var i=1; i<10; i++) {
+        if(i % 2 === 0) {
+            document.write("<br>"  +i);
+        }
+      }
+       
+      document.write("<br> Odd Numbers");
+      
+      for (var i=1; i<10; i++) {
+       if(i % 2 !== 0) {
+           document.write("<br>"  +i);
+       }
+     }
+    
+     //chap  # 17 to 20  task # 6
+    
+    
+    var A= prompt('Enter your item :');
+    var B = ['cake', 'apple pie', 'cookie', 'chips', 'patties'];
+    for(var i=0;i<escape.length;i++){
+        if(B[i] ===A){
+            alert('Item is Found')
+            
+        }
+        else{
+            alert('Item is not Found')
+        }
+    
+    
+    }
+    
+    //chap  # 17 to 20  task # 7
+    
+    var A = [24, 53, 78, 91, 12];
+    var largest = A[0];
+    
+    for (var i = 0; i < A.length; i++) {
+        if (largest < A[i] ) {
+            largest = A[i];
+        }
+    }
+    document.write("<br><br> Array Items  : 24, 53, 78, 91, 12");
+    document.write("<br><br> The Largest Number Is   " +largest);
+    
+    
+    //chap  # 17 to 20  task # 8
+    
+    var A = [24, 53, 78, 91, 12]
+    var Smallest= A[0];
+    
+    for (var i = 0; i < A.length; i++) {
+        if (Smallest > A[i] ) {
+            Smallest = A[i];
+        }
+    }
+    document.write("<br><br> Array Items  : 24, 53, 78, 91, 12");
+    document.write("<br><br> The Smallest Number Is   " +Smallest);
+    
+    
+    //chap  # 17 to 20  task # 9
+    
+    for (x=1; x <= 100; x++){
+        if( x % 5 == 0 ){
+           document.write("<br> " +x)
+        }
+        
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+ // chap  # 21 to 25 task # 1 
+
+ var fname= prompt("Enter your first name : " );
+ var lname= prompt("Enter your last name : " );
+alert("Your Fullname is : " + fname + lname);
+
+ // chap  # 21 to 25 task # 2
+
+var mob= prompt("Enter your favourite mobile model : " );
+alert("My favourite phone is : " + mob);
+
+ // chap  # 21 to 25 task # 3
+
+ var pak= "pakistani";
+ document.write("<br><br> String : Pakistani")
+ document.write("<br> Index of 'n' : " + pak.indexOf("n"));
+
+// chap  # 21 to 25 task # 4
+
+var h= "Hello World";
+ document.write("<br><br> String :Hello World")
+ document.write("<br> Index of 'n' : " + h.lastIndexOf("l"));
+
+
+ // chap  # 21 to 25 task # 5
+
+ var pak= "pakistani";
+ document.write("<br><br> String : Pakistani")
+ document.write("<br> Character at index 3 : " + pak.charAt(3));
+
+ // chap  # 21 to 25 task # 6
+
+ var str = "Islamabad";
+var res = str.replace("Hyderabad");
+
+document.write("<br><br> City : Hyderabad ")
+
+document.write("<br> After replacement : " +res)
+
+// chap  # 21 to 25 task # 7
+
+var message1 = "Ali & Sami are best friends. They play cricket and football together.";
+var message2 = message1.replace("Ali and Sami are best friends. They play cricket and football together.");
+
+document.write("<br><br>  Ali and Sami are best friends. They play cricket and football together.")
+
+document.write("<br> " +message2)
+
+
+// chap  # 21 to 25 task # 8
+
+var string = "472";
+var num = string.toString();
+document.write("<br><br> Value : 472 " )
+document.write("<br> Type : String  ")
+
+document.write("<br>Value : 472 ")
+document.write("<br> Type : Number  ")
+
+
+// chap  # 21 to 25 task # 9
+
+var pea= prompt("Enter word : " );
+var peanut = pea.toUpperCase();
+alert(peanut)
+
+
+// chap  # 21 to 25 task # 10
+
+
+var num = 35.36;
+var without = num.toString().replace(".", "");
+document.write("<br><br> Number :  35.36" ); 
+document.write("<br> Result :" +without);
+
+
+// chap  # 21 to 25 task # 11
+
+var char= prompt("Enter Character : " );
+var c=char.charCodeAt();
+alert("ASCII code is " +c) 
+
+// chap  # 21 to 25 task # 12
+
+var pass= prompt("Enter password : " )
+
+if(pass.length<6){
+    alert("Password must be at least 6 characters long.")
+}
+
+
+else if (pass.length===6){
+    alert(pass)
+}
+else{
+    alert("Password  at least 6 characters long.")
+}
+
+
+// chap  # 21 to 25 task # 13
+
+var university = "University of Karachi";
+var uni = university.split("");
+
+document.write("<br><br> " +uni); 
+
+// chap  # 21 to 25 task # 14
+
+var pak =  prompt("Enter word : " )
+
+var res = pak.charAt(pak.length-1);
+alert("Last character of input is " +res)
+
+// chap  # 21 to 25 task # 15
+
+var str = "The quick brown fox jumps over the lazy dog";
+var  word = "the";
+document.write("<br><br> The quick brown fox jumps over the lazy dog");
+document.write("<br> There are 2 occurence(s) of word  " +word)
+
+// chap  # 26 to 30 task # 1
+
+var num =  3.45214;
+document.write("<br><br> Number : " +num)
+
+document.write("<br> Round off value : " +Math.round(3.45214))
+document.write("<br> Floor value : " +Math.floor(3.45214))
+document.write("<br> Ceil value : " +Math.ceil(3.45214))
+
+// chap  # 26 to 30 task # 2
+
+var abs ;
+document.write("<br><br> The absolute value of -4 is  " +Math.abs(-4))
+
+
+// chap  # 26 to 30 task # 3
+
+var rand = Math.round(Math.random() * 6);
+alert('Random dice value : ' + rand);
+var diceRoll = Math.floor( Math.random() * 6 ) ;
+alert('Random dice value : ' + diceRoll);
+
+// chap  # 26 to 30 task # 4
+
+var head = 1;
+var tail = 2;
+
+var toss = Math.random() * 2;
+var floor = Math.floor(toss)
+if(floor === 0){
+    document.write("0 <br><br> Random Coin Value: Head")
+} else if(floor === 1)
+{
+    document.write("1 <br><br> Random Coin Value: Tails")
+}
+
+
+
+// chap  # 26 to 30 task # 5
+
+
+  
+document.write("<br><br> Random number between 1 to 100 :" +(Math.random() * 100)+1 )
+
+
+// chap  # 31 to 34 task # 1
+
+var today = new Date();
+if(today.getDay() == 6 || today.getDay() == 0) 
+document.write("<br><br> " +today)
+
+// chap  # 31 to 34 task # 2
+ 
+  var months ="July";
+    document.write("<br><br> Current Month :" +months)
+
+
+
+// chap  # 31 to 34 task # 3
+
+    var today = new Date();
+if( today.getDay() == 0) 
+alert("Today is " +today)
+
+
+
+// chap  # 31 to 34 task # 4
+
+document.write("<br><br> ")
+var a = new Date();
+var b = a.toString();
+var c = b.slice(16,19);
+if (c === "12:"){
+    document.write("It's PM")
+}else if(c === "13:"){
+    document.write("It's PM")
+}else if(c === "14:"){
+    document.write("It's PM")
+}else if(c === "15:"){
+    document.write("It's PM")
+}else if(c === "16:"){
+    document.write("It's PM")
+}else if(c === "17:"){
+    document.write("It's PM")
+}else if(c === "18:"){
+    document.write("It's PM")
+}else if(c === "19:"){
+    document.write("It's PM")
+}else if(c === "20:"){
+    document.write("It's PM")
+}else if(c === "21:"){
+    document.write("It's PM")
+}else if(c === "22:"){
+    document.write("It's PM")
+}else if(c === "23:"){
+    document.write("It's PM")
+}else if(c === "24:"){
+    document.write("It's AM")
+}else if(c === "01:"){
+    document.write("It's AM")
+}else if(c === "02:"){
+    document.write("It's AM")
+}else if(c === "03:"){
+    document.write("It's AM")
+}else if(c === "04:"){
+    document.write("It's AM")
+}else if(c === "05:"){
+    document.write("It's AM")
+}else if(c === "06:"){
+    document.write("It's AM")
+}else if(c === "07:"){
+    document.write("It's AM")
+}else if(c === "08:"){
+    document.write("It's AM")
+}else if(c === "09:"){
+    document.write("It's AM")
+}else if(c === "10:"){
+    document.write("It's AM")
+}else if(c === "11:"){
+    document.write("It's AM")
+}
+
+// chap  # 31 to 34 task # 5
+
+var dateobj =  
+   new Date('October 13, 1996 05:35:32'); 
+ 
+   dateobj.setDate(15); 
+ 
+   var B = dateobj.getDate(); 
+  
+   document.write("<br><br> " +B);
+
+   // chap  # 31 to 34 task # 6
+
+
+var age = 23; 
+var dateOfBirth = new Date(new Date().getTime() - age);
+alert(dateOfBirth)
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+document.getElementById("demo").innerHTML = "<h1> DOM </h1> <div id='main-content' class='content'> <p class='render'> First Name : Alex</p> <p class='render' id='lastName'>Last Name: Bank</p> <p class='render'> Email : alexbank@example.com</p> <p class='render'> Country : Pakistan </p> <p class='render'> contact : +92 300 1234567</p> </div>"
+              
+              // chap # 58 to 67 task # 2
+   
+                 alert(document.getElementById("adiv").nodeType)
+               alert(document.getElementById("adiv").firstChild.nodeType)
+   
+   
+           //chap # 58 to 67 task # 2 
+   
+   var para = document.createElement("p");
+   var node = document.createTextNode("This is new.");
+   para.appendChild(node);
+   
+   var element = document.getElementById("div1");
+   element.appendChild(para);
+   
+       //chap # 43 to 48 task # 1
+   
+       var elems = document.getElementsByClassName('confirmation');
+       var confirmIt = function (e) {
+           if (!confirm('Are you sure?')) e.preventDefault();
+       }
+       for (var i = 0, l = elems.length; i < l; i++) {
+           elems[i].addEventListener('click', confirmIt, false);
+       }
+   
+    //chap # 49 to 52 task # 1
+   
+   
+    function testVariable() {
+               var strText = document.getElementById("textone").value;          
+               var strText1 = document.getElementById("textTWO").value;
+               var result = strText + "                  " + strText1;
+               document.getElementById('spanResult').textContent = result;
+                
+           }
+   
+   
+   
+    //chap # 52 to 57 task # 1
+   
+   
+    function myFunction1() {
+       var element = document.getElementById("myDIV");
+       element.classList.remove("mystyle");
+   alert(element)
+    }
+    
+   
+    
+    </script>
+    
+    </html>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
